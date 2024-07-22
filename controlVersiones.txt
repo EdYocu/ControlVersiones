@@ -4,6 +4,10 @@ Repositorio
 IPv4 
 https://github.com/EdYocu/ControlVersiones.git
 
+
+Comando LS
+Muestra el contenido de la carpeta del repositorio local
+
 Creacion de contenidos
 echo "# ControlVersiones" >> README.md 
 git init 
@@ -19,4 +23,27 @@ git add -A
 git add nameFiel.txt
 git commit -m "primer commit" 
 git push -u origin main
+
+Comando para gestionar las versiones
+git log 
+git checkout "id-hash"  // ejemplo git checkout 9e1d7bd752cdf235bfb88a45831685d50d0c9194
+
+git checkout master
+
+Historial de versiones
+commit 9e1d7bd752cdf235bfb88a45831685d50d0c9194 (HEAD -> main, origin/main)
+Author: EdYocu <edgardoyocupicio@gmail.com>
+Date:   Mon Jul 22 10:00:19 2024 -0700
+
+    Actualizo repositorio de versiones y otros archivos
+
+commit e8568ae4a9dcb8273bfd19eef09144be1ab6f50a
+Author: EdYocu <edgardoyocupicio@gmail.com>
+Date:   Mon Jul 22 09:55:41 2024 -0700
+
+    Actualizo repositorio de versiones y otros archivos
+
+commit c6e9c68f86bb166ac2990f6070dff3830d1ad2c7
+Author: EdYocu <edgardoyocupicio@gmail.com>
+Date:   Mon Jul 22 09:33:53 2024 -0700
 
